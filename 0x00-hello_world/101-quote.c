@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main This program prints string using write function
+ * main - Description: This program prints string using write function
  * Return 1 (Success)
  */
 
