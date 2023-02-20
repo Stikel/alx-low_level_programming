@@ -2,7 +2,11 @@
 #include <unistd.h>
 
 /**
- * main - Description: This program prints string using write function
+ * stdio libery for input and output
+ *
+ * string library for char and puts function
+ *
+ * main -  This program prints string using write function
  * Return 1 (Success)
  */
 
