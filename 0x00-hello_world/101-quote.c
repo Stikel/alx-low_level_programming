@@ -1,8 +1,8 @@
-#include <unist.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main -prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- * followed by a newline, to standard error.
+ * main This program prints string using write function
  * Return 1 (Success)
  */
 
