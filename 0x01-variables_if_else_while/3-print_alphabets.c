@@ -1,5 +1,6 @@
 #include <time.h>
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - Entry point
  * Return: Always 0 (Success)
@@ -7,16 +8,21 @@
 
 int main(void)
 {
-	char low, up;
+	char letter
 
-	for (low = 'a'; low <= 'z'; low++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	putchar(low);
+		if (isprint(letter))
+		{
+		putchar(letter);
+		}
 	}
-	for (up = 'A'; up <= 'Z'; low++)
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
-	putchar(low);
+		if (isprint(letter))
+		{
+		putchar(letter);
+		}
 	}
-
 	return (0);
 }
