@@ -16,7 +16,7 @@ int main(void)
 	putchar(55); /* ASCII value of '7' */
 	putchar(56); /* ASCII value of '8' */
 	putchar(57); /* ASCII value of '9' */
-	putchar(''\n);
+	putchar('\n');
 
 	return (0);
 }
