@@ -25,6 +25,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return (EXIT_SUCCESS);
+	return (0);
 }
 
