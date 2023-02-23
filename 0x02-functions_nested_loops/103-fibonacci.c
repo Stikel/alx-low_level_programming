@@ -1,12 +1,14 @@
 #include <stdio.h>
 /**
  * main - Prints the sum of even fibonacci numbers
- * less than 4000000
- * Return: nothing!
+ * less than 4000000.
+ * Return: Nothing!
  */
-int main(void)
-{
 
+int main(void)
+
+{
+	
 	int i = 0;
 	long j = 1, k = 2, sum = k;
 
