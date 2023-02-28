@@ -5,9 +5,8 @@
  * @str: input
  * Return: print
  */
-void puts2(char *str)
+void rev_string(char *S);
 {
-
 	int longi = 0;
 	int t = 0;
 	char *y = str;
