@@ -4,7 +4,7 @@
  * @S: string
  * Return: 0
  */
-void print_rev(cahr *S)
+void print_rev(char *S)
 {
 
 	int longi = 0;
@@ -21,5 +21,5 @@ void print_rev(cahr *S)
 		_putchar(*S);
 		S--;
 	}
-	_putchat('\n');
+	_putchar('\n');
 }
