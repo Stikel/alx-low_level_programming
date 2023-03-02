@@ -3,21 +3,17 @@
  * _strcmp - compare string values
  * @s1: input value
  * @s2: input value
+ * Return: If str1 < str2, the negative differ of the first characters.
+ * if str1 == str2
+ * if str1 > str2, dthe positve difference of the first unmatched characters.
  *
- * Return: s1[i] - s2[i]
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i;
-
-	i = 0;
-	while (s1[i] != '\0' && s2[i] != '\0')
+	while (*s1 && *s2 && *s1 == *s2)
 	{
-		if (s1[1] != s2[i])
-		{
-			return (s1[i] - s2[i]);
-		}
-		i++;
+		s1++;
+		s2++;
 	}
-	return (0);
+	return (*s1 - *s2);
 }
